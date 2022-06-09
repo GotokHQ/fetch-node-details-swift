@@ -1,7 +1,8 @@
 Pod::Spec.new do |spec|
   spec.name         = "Torus-fetchNodeDetails"
   spec.version      = "2.6.0"
-  spec.platform = :ios, "11.0"
+  spec.ios.deployment_target = '11.0'
+  spec.osx.deployment_target = '10.12'
   spec.summary      = "Fetches the node details from torus nodelist smart contract"
   spec.homepage     = "https://github.com/torusresearch/fetch-node-details-swift"
   spec.license      = { :type => 'BSD', :file => 'License.md' }
